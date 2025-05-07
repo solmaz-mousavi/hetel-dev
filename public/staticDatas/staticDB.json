@@ -1,0 +1,141 @@
+{
+  "navbar": [
+    { "id": "7dc8", "title": " صفحه اصلی ", "route": "/" },
+    { "id": "7726", "title": " رزرو اتاق ", "route": "roomSearch" },
+    { "id": "d290", "title": " منو ", "route": "foodSearch" },
+    { "id": "4926", "title": "سفارش غذا", "route": "foodSearch" },
+    { "id": "b34b", "title": "گالری تصاویر", "route": "gallery" },
+    { "id": "cc0e", "title": "درباره ما", "route": "about" },
+    { "id": "ab5c", "title": "تماس با ما", "route": "contact" }
+  ],
+  "social": [
+    {
+      "id": "81d9",
+      "socialName": "Facebook",
+      "iconName": "FaFacebookF",
+      "link": "https://www.facebook.com"
+    },
+    {
+      "id": "3215",
+      "socialName": "X",
+      "iconName": "TbBrandXFilled",
+      "link": "https://x.com"
+    },
+    {
+      "id": "4a9e",
+      "socialName": "Tripadvisor",
+      "iconName": "FaTripadvisor",
+      "link": "https://www.tripadvisor.com"
+    }
+  ],
+  "slider": [
+    {
+      "id": "8872",
+      "title": "سفر خودتان را منحصر بفرد و خاطره انگیز کنید",
+      "image": "/aseman-hotel/images/slider/img01.webp",
+      "desc": "یه نگاهی به محیط لاکچری و امکانات هتل بانداز",
+      "navigate": "/aseman-hotel/about"
+    },
+    {
+      "id": "ca4e",
+      "title": "محیطی آرام با بهترین امکانات روز دنیا",
+      "image": "/aseman-hotel/images/slider/img02.webp",
+      "desc": "همین حالا یه اتاق رزرو کن",
+      "navigate": "/aseman-hotel/roomSearch"
+    },
+    {
+      "id": "4d26",
+      "title": "طعم خوش زندگی به سبک آشپزی جهانی",
+      "image": "/aseman-hotel/images/slider/img03.webp",
+      "desc": "لازم نیست سر میز منتظر باشی، همین حالا غذاتو سفارش بده",
+      "navigate": "/aseman-hotel/foodSearch"
+    }
+  ],
+  "intro": [
+    {
+      "id": "9c9d",
+      "title": " محیط آرام و خانوادگی",
+      "image": "/aseman-hotel/images/intro/intro01.png",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی"
+    },
+    {
+      "id": "a8b2",
+      "title": "لذت یک ماساژ تمام عیار",
+      "image": "/aseman-hotel/images/intro/intro02.png",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی"
+    },
+    {
+      "id": "b8eb",
+      "title": "طعم خوش انواع نوشیدی",
+      "image": "/aseman-hotel/images/intro/intro03.png",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی"
+    }
+  ],
+  "status": [
+    {
+      "id": "01",
+      "title": "ظرفیت هتل",
+      "image": "/aseman-hotel/images/status/img01.png",
+      "number": 260,
+      "unit": "نفر"
+    },
+    {
+      "id": "02",
+      "title": "ظرفیترستوران",
+      "image": "/aseman-hotel/images/status/img02.png",
+      "number": 130,
+      "unit": "نفر"
+    },
+    {
+      "id": "03",
+      "title": "تعداد مهمانان هتل",
+      "image": "/aseman-hotel/images/status/img03.png",
+      "number": 194,
+      "unit": "نفر"
+    },
+    {
+      "id": "04",
+      "title": "تعداد خدمه",
+      "image": "/aseman-hotel/images/status/img04.png",
+      "number": 26,
+      "unit": "نفر"
+    }
+  ],
+  "roomTypes": [
+    { "id": "2h7d", "title": "سینگل" , "image":"/aseman-hotel/images/room-type/1.jpg"},
+    { "id": "f0lk", "title": "دابل" , "image":"/aseman-hotel/images/room-type/2.jpg"},
+    { "id": "35fc", "title": "سوئیت" , "image":"/aseman-hotel/images/room-type/3.jpg"},
+    { "id": "f8k2", "title": "کینگ" , "image":"/aseman-hotel/images/room-type/4.jpeg"}
+  ],
+  "roomViews": [
+    { "id": "9dh7", "title": "دریا" },
+    { "id": "hgdf", "title": "شهر" }
+  ],
+  "category": [
+    {
+      "id": "b817",
+      "title": "پیش غذا",
+      "image": "/aseman-hotel/images/category/1.webp"
+    },
+    {
+      "id": "247h",
+      "title": "غذای اصلی",
+      "image": "/aseman-hotel/images/category/2.png"
+    },
+    {
+      "id": "4e5f",
+      "title": "نوشیدنی سرد",
+      "image": "/aseman-hotel/images/category/3.png"
+    },
+    {
+      "id": "bcf7",
+      "title": "دسر",
+      "image": "/aseman-hotel/images/category/4.webp"
+    },
+    {
+      "id": "0e66",
+      "title": "نوشیدنی گرم",
+      "image": "/aseman-hotel/images/category/5.webp"
+    }
+  ]
+}

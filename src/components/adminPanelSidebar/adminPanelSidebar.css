@@ -1,0 +1,16 @@
+.admin-panel__navbar-item {
+  margin: 20px 0px;
+}
+
+.admin-panel__navbar-item a {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.admin-panel__navbar-item a:hover,
+.admin-panel__navbar-item a.active {
+  background-color: var(--bg-color);
+  cursor: pointer;
+}

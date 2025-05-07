@@ -1,0 +1,44 @@
+.header-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+}
+.login-btn {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.icon-btn {
+  color: #fff;
+}
+.userInfo-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0px 20px;
+}
+.userInfo-container a {
+  text-decoration: none;
+  color: #fff;
+}
+.userInfo-container a:hover {
+  color: var(--aqua-color);
+}
+.header-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  color: var(--bg-color-white);
+}
+.username-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100px;
+}
+.username-role {
+  font-size: 0.8rem;
+  color: var(--bg-color-white);
+  border-top: 1px solid var(--bg-color-white);
+  width: 100%;
+}

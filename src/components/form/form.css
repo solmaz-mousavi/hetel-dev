@@ -1,0 +1,74 @@
+.form-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  position: relative;
+  z-index: 10;
+}
+.input-wrapper input {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+  width: 200px;
+  height: 20px;
+}
+.inputs-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  column-gap: 10px;
+}
+.inputs-container .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.inputs-container .input-wrapper.checkbox {
+  flex-direction: row-reverse;
+  justify-content: start;
+  cursor: pointer;
+}
+
+.inputs-container label {
+  padding: 5px;
+  font-size: 0.9rem;
+  color: #fff;
+	height: 25px;
+	text-align: right;
+}
+.inputs-container input,
+.inputs-container select {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.recaptcha div {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.inputs-container .inputError {
+  color: rgb(255, 174, 0);
+  font-size: 0.8rem;
+  margin-top: 10px;
+	width: 200px;
+	line-height: 2;
+text-align: right;
+}
+.buttons-container {
+  padding: 5px;
+	padding-top: 30px;
+  /* margin: 10px; */
+  /* display: flex;
+  justify-content: left; */
+  /* gap: 20px; */
+  /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
+}

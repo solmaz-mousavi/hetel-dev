@@ -1,0 +1,108 @@
+.menu-wrapper {
+  width: 100%;
+}
+
+.menu-navbar {
+  cursor: pointer;
+}
+.product-details {
+  position: relative;
+}
+
+.rows-container .product-details h2 {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--bg-color-white);
+  margin-bottom: 10px;
+}
+.rows-container .product-details p {
+  font-size: 0.9rem;
+}
+
+.nutrition {
+  box-sizing: border-box;
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: var(--bg-color-white);
+}
+.nutrition div {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.protein {
+  background: linear-gradient(to right, #5b98b4a6 5%, #00000000);
+  border-radius: 10px 0 0 0;
+}
+.carbohydrates {
+  background: linear-gradient(to right, #659452a6 5%, #00000000);
+}
+.fat {
+  background: linear-gradient(to right, #948552a9 5%, #00000000);
+}
+.sugar {
+  background: linear-gradient(to right, #945252a8 5%, #00000000);
+  border-radius: 0 0 0 10px;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+	padding-top: 20px;
+}
+.counter-container {
+  display: flex;
+  align-items: center;
+}
+.counter {
+  font-size: 1.1rem !important;
+}
+.counter-btn{
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+	z-index: 5;
+}
+
+.grids-container .product-details {
+}
+
+
+.grids-container .product-details h2 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--bg-color-white);
+	margin-bottom: 10px;
+
+}
+
+
+
+.grids-container .nutrition {
+display: none;
+}
+
+.grids-container .price-container {
+flex-direction: column;
+gap: 5px;
+border-top: 1px solid var(--bg-color-white);
+margin-top: 10px;
+}
+.grids-container .product-details{
+font-size: 0.8rem;
+
+}
+.grids-container{
+
+}

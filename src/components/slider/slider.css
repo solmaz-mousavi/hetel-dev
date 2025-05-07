@@ -1,0 +1,69 @@
+.slider-wrapper {
+  height: 700px;
+  /* position: absolute;
+  top: 0; */
+}
+
+.slide-container {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-container2 {
+  position: relative;
+}
+.slider-title {
+  color: var(--gold-color);
+  font-size: 55px;
+  line-height: 1.7rem;
+  padding: 50px 0px;
+  position: relative;
+  z-index: 5;
+  font-family: "khodkar";
+}
+
+.slider-btn {
+  display: inline-flex;
+  gap: 20px;
+  transition: all 0.5s ease;
+  padding: 10px 30px;
+}
+
+.slider-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.slider-desc {
+  font-size: 18px;
+	color: #fff;
+}
+
+.slider-arrow {
+  font-size: 24px;
+	color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  background-color: #7fffd48d !important;
+}
+
+.ineShape {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 300px;
+  opacity: 0.5;
+}

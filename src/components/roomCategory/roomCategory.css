@@ -1,0 +1,120 @@
+
+.roomSlider-wrapper{
+	background-color: #fff;
+	padding: 50px 0;
+	}
+	
+	.roomSlider-wrapper .swiper {
+		width: 100%;
+	}
+	.swiper-slide {
+		width: auto;
+	}
+	
+	.roomSlider-wrapper .swiper-pagination-bullet {
+			background-color: var(--gold-color);
+			width: 20px;
+			height: 5px;
+			border-radius: 2px;
+			
+		}
+	
+		.roomSlider-wrapper .swiper-wrapper {
+		height: 550px;
+
+	}
+	.roomSlider-image {
+		padding: 10px;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+	
+	.roomSlider-image img{
+height: 500px;
+border-radius: 5px;
+
+	}
+
+
+
+
+
+
+
+	/* .roomSlider-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	} */
+	
+
+
+
+/* 
+
+	.roomSlider-thumb{
+	}
+	
+	.roomSlider-item{
+		
+		position: relative;
+	}
+	
+	.roomSlider-image{
+		width: 200px;
+		height: 150px;
+		overflow: hidden;
+	display: flex;justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #00000050;
+	position: relative;
+	cursor: pointer;
+	}
+	.roomSlider-image::after{
+		content: "";
+		position: absolute;
+		inset: 0;
+		background-color: rgba(0,0,0,0.5);
+	}
+	.roomSlider-image img{
+		height: 100%;
+		transition: all 0.5s ease;
+	}
+	.roomSlider-item:hover img{
+		scale: 1.1;
+	}
+	.roomSlider-title{
+	position: absolute;
+	bottom: 60px;
+	right: 50px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	background-color: #ffffff7a;
+	backdrop-filter: blur(5px);
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	
+	} */
+	
+	.roomSlider-toptitle{
+		color: #fff;
+		text-align: center;
+		font-size: 40px;
+		font-family: 'khodkar';
+		color: var(--gold-color);
+		padding: 40px 0;
+	}
+	
+	.roomSlider-desc{
+		padding-bottom: 40px;
+	text-align: center;
+	color: #777;
+	line-height: 1.5;
+	}
+	 

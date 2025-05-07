@@ -1,0 +1,74 @@
+@import './reset.css';
+
+/* fonts */
+@font-face {
+	font-family: 'Segoe UI';
+	src: local('Segoe UI'),
+		url('../fonts/segoeui.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Tahoma';
+	src: local('Tahoma'),
+		url('../fonts/tahoma.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Arghavan';
+	src: local('Arghavan'),
+		url('../fonts/Mj_Titr\ Stripe_0.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'yekan';
+	src: local('iran-yekan'),
+		url('../fonts/iran-yekan-500.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'pinar';
+	src: local('pinar'),
+		url('../fonts/pinar-700.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'khodkar';
+	src: local('khodkar'),
+		url('../fonts/Far_khodkar.ttf') format('truetype');
+}
+/* fonts - end */
+
+/* color - variables */
+:root {
+  --semi-white : rgb(243,244,246);
+  --aqua-color: #7fffd4;
+	--gold-color: goldenrod;
+	--font-color: rgb(0,0,0);
+	--bg-color: rgba(0,0,0,0.5);
+	--bg-color-light: rgba(0,0,0,0.3);
+	--bg-color-dark: rgba(0,0,0,0.7);
+	--bg-color-white: rgba(255, 255, 255, 0.3);
+}
+/* color variables end */
+
+/* body styles */
+
+*, body, html {
+  font-family : 'Segoe UI', 'Tahoma', Geneva, Verdana, sans-serif;
+}
+/* body styles end */
+
+/* container styles */
+
+.container {
+  width: 85%;
+	margin: 0 auto;
+  max-width: 1600px;
+	min-width: 320px;
+  padding: 10px;
+	font-size: 1rem;
+	line-height: 1.2rem;
+}
+
+/* container styles end */
+
+/* modal styles */
+.swal2-popup {
+	font-size: 14px !important;
+}
+/* modal styles end */

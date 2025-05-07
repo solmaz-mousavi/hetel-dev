@@ -1,0 +1,47 @@
+.food-details-container{
+	background-color: var(--bg-color-white);
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.food-details-description{
+	text-align: justify;
+	padding: 10px;
+	margin: 10px 0;
+	border-top: 1px solid var(--bg-color-white);
+}
+.food-price{
+	padding: 20px 0;
+	border-bottom: 1px solid var(--bg-color-white);
+}
+.food-nutritional-container{
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	font-size: 0.9rem;
+}
+.nutrition-title{
+	padding-bottom: 10px;
+}
+.food-nutritional-item{
+	height: 30px;
+	border-radius: 10px 0 0 10px;
+}
+
+.food-protein {
+  background: linear-gradient(to right, #5b98b4 35%, #00000000);
+}
+.food-carbohydrates {
+  background: linear-gradient(to right, #659452 35%, #00000000);
+}
+.food-fat {
+  background: linear-gradient(to right, #948552 35%, #00000000);
+}
+.food-sugar {
+  background: linear-gradient(to right, #945252 35%, #00000000);
+}
+
+

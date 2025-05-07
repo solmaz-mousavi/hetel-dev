@@ -1,0 +1,37 @@
+.intro-wrapper {
+  background-color: #fff;
+}
+
+.intro-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+	padding: 30px 0;
+}
+
+.aos-container:nth-child(odd) .intro-item {
+  flex-direction: row-reverse;
+}
+
+.intro-image {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.intro-details {
+  text-align: center;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.intro-title {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.intro-desc {
+  color: #777;
+	line-height: 1.5;
+}

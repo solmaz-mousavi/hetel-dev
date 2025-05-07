@@ -1,0 +1,91 @@
+.result-container{
+	width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+border-bottom: 1px solid var(--bg-color-white);
+}
+
+.menu-container{
+	padding-top: 20px;
+
+}
+.menu-navbar{
+	display: flex;
+	gap: 10px;
+	padding-right: 20px;
+
+}
+.menu-navbar-item{
+	padding: 10px;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+.menu-navbar-item.active{
+	background-color: #9b9b9b;
+	border-radius: 10px 10px 0 0;
+	position: relative;
+	height: 40px;
+}
+.menu-navbar-item.active::after{
+	content: '';
+	width: 10px;
+	height: 30px;
+	position: absolute;
+	bottom:0px;
+	right: 100%;
+	border-radius: 0 0 0.5rem 0;
+	box-shadow: 2px 2px 0 2px #9b9b9b;
+}
+.menu-navbar-item.active::before{
+	content: '';
+	width: 10px;
+	height: 30px;
+	position: absolute;
+	bottom:0px;
+	left: 100%;
+	border-radius: 0 0 0 0.5rem;
+	box-shadow: -2px 2px 0 2px #9b9b9b;
+}
+
+.menu{
+	background-color: #9b9b9b;
+	border-radius: 10px;
+	padding: 10px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ttt{
+	padding: 20px;
+	background-color: var(--bg-color-white) ;
+	border-radius:10px;
+	position: relative;
+}
+.ttt::after{
+	content: '';
+	width: 100px;
+	height: 100px;
+	/* background-color: aqua; */
+	position: absolute;
+	top: 0;
+	border-radius: 0 0 0.5rem 0;
+	box-shadow: 5px 5px 0 5px red;
+
+
+}

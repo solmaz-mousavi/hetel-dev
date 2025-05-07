@@ -1,0 +1,20 @@
+.login-container .inputs-container{
+	flex-direction: column;
+	text-align: center;
+}
+.login-container .inputs-container .input-wrapper{
+	margin: 0 auto;
+	width: 300px;
+}
+.buttons-container{
+	justify-content: center;
+}
+
+
+.login-link{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+}

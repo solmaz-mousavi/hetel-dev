@@ -1,0 +1,15 @@
+.cart-branch {
+  color: #fff;
+  background-color: goldenrod;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  left: -20px;
+}

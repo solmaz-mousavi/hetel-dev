@@ -1,0 +1,41 @@
+.room-details-container{
+	padding-top: 80px;
+	/* background-color: aqua; */
+	text-align: center;
+}
+
+.heart-container{
+	display: inline-block;
+	font-size: 1.6rem;
+	position: relative;
+	top: 10px;
+	right: 47%;
+	z-index: 3;
+}
+
+.heart-container.liked{
+	color: red;
+}
+
+.details-container{
+	text-align: right;
+	padding-bottom: 20px ;
+}
+.room-details__bottom{
+background-color: var(--bg-color-white);
+padding: 20px;
+border-radius: 10px;
+}
+
+.room-details-description{
+	text-align: justify;
+	padding: 10px 0px;
+	border-top: 1px solid var(--bg-color-white);
+	font-size: 0.8rem;
+}
+.score-container{
+	color: goldenrod;
+	font-size: 1.2rem;
+	padding-top: 5px;
+	direction: ltr;
+}
