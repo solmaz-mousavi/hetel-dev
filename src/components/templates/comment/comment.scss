@@ -1,0 +1,114 @@
+@use "/src/styles/global.scss" as *;
+.academia-comment-wrapper {
+  padding: 20px 0;
+
+  .academia-comment-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px;
+    text-transform: uppercase;
+    padding: 20px 10px;
+
+    h3 {
+      color: #555;
+      span {
+        font-size: 1rem;
+        color: #999;
+        font-weight: normal;
+      }
+    }
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  // show comments:
+  .academia-comments-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    -webkit-transition: max-height 1s ease-in;
+    -o-transition: max-height 1s ease-in;
+    transition: max-height 1s ease-in;
+
+    .academia-comment {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 10px;
+      color: #999;
+      position: relative;
+
+      .academia-comment-user {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        .academia-comment-user-icon {
+          width: 30px;
+          height: 30px;
+          color: $academia-color;
+        }
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          border: 1px solid $academia-color;
+        }
+        .academia-comment-user-details {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          gap: 15px;
+        }
+      }
+    }
+  }
+
+  // add comment form:
+  .academia-add-comment {
+    width: 100%;
+    .form-wrapper {
+      padding: 0;
+      .input-wrapper .input-container .input {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        color: #777;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .academia-comment-wrapper
+    .academia-comments-container
+    .academia-comment
+    .academia-comment-user {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    .academia-comment-user-details {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { useGetRoomsQuery } from "../../app/services/roomApi";
-import Slider from "../../components/slider/Slider";
+// import Slider from "../../components/slider/Slider";
 import CircleSpinner from "../../components/loader/CircleSpinner";
 import { MdErrorOutline } from "react-icons/md";
 import { ContextData } from "../../contexts/ContextData";
@@ -13,7 +13,7 @@ import {
   FaStarHalfAlt,
 } from "react-icons/fa";
 import "./roomDetails.css";
-import { filterByID } from "../../filterMethods";
+import { filterByID } from "../../utils/filterMethods";
 import PageHeader from "../../components/pageHeader/PageHeader";
 
 
@@ -70,7 +70,7 @@ export default function RoomDetails() {
 			<>
 			<PageHeader title={title} />
       <div className="room-details-container">
-        <Slider slides={images} />
+        {/* <Slider slides={images} /> */}
         <div className="room-details__bottom">
           <div
             className={`heart-container ${like ? "liked" : ""}`}

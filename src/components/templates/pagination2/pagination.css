@@ -1,0 +1,29 @@
+
+
+.pagination-container {
+	display: flex;
+	justify-content: center;
+align-items: center;
+
+  gap: 10px;
+  padding: 50px 0;
+}
+  .pagination-item {
+		display: flex;
+		justify-content: center;
+	align-items: center;
+
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #adadad;
+    color: #fff;
+    cursor: pointer;
+	}
+	.pagination-item:hover {
+      background-color: var(--aqua-color);
+    }
+    .pagination-item.active {
+      background-color:var(--aqua-color);
+    }
+  

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MdFastfood, MdErrorOutline } from "react-icons/md";
-import { filterByID } from "../../filterMethods";
+import { filterByID } from "../../utils/filterMethods";
 import { useGetFoodsQuery } from "../../app/services/foodApi";
 import CircleSpinner from "../loader/CircleSpinner";
 

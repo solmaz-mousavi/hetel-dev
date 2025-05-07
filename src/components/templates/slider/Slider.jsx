@@ -8,8 +8,8 @@ import "swiper/css";
 
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import { StaticDataContext } from "../../contexts/StaticDataContext";
-import Aos from "../aos/Aos";
+import { StaticDataContext } from "../../../contexts/StaticDataContext";
+import Aos from "../../modules/aos/Aos";
 
 export default function Slider() {
   const navigate = useNavigate();
@@ -61,13 +61,5 @@ export default function Slider() {
           </SwiperSlide>
         ))}
     </Swiper>
-
-    // <Swiper slidesPerView={1} pagination={{ clickable: true }} loop={true}>
-    //   {slides.map((slide) => (
-    //     <SwiperSlide key={slide.id + slide.image}>
-    //       <img src={slide.image} alt="darsman hotel" className="slide-img" />
-    //     </SwiperSlide>
-    //   ))}
-    // </Swiper>
   );
 }

@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 // import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
-import { StaticDataContext } from "../../contexts/StaticDataContext";
+import { StaticDataContext } from "../../../contexts/StaticDataContext";
 
 function RoomCategory() {
   const { staticData } = useContext(StaticDataContext);

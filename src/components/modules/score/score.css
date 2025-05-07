@@ -1,0 +1,10 @@
+.score {
+  color: rgb(167, 120, 4);
+  display: flex;
+  align-items: center;
+}
+.score span {
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

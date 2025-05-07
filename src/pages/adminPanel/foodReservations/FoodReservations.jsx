@@ -6,7 +6,7 @@ import {
 import { useGetFoodsQuery } from "../../../app/services/foodApi";
 import { useGetRoomsQuery } from "../../../app/services/roomApi";
 import { useGetUsersQuery } from "../../../app/services/userApi";
-import { filterByID } from "../../../filterMethods";
+import { filterByID } from "../../../utils/filterMethods";
 import swal from "sweetalert";
 import TableTop from "../../../components/tableTop/TableTop";
 import Pagination from "../../../components/pagination/Pagination";

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { useGetFoodsQuery } from "../../app/services/foodApi";
-import Slider from "../../components/slider/Slider";
+// import Slider from "../../components/slider/Slider";
 import CircleSpinner from "../../components/loader/CircleSpinner";
 import { MdErrorOutline } from "react-icons/md";
 import { ContextData } from "../../contexts/ContextData";
@@ -13,7 +13,7 @@ import {
   FaStarHalfAlt,
 } from "react-icons/fa";
 import "./foodDetails.css";
-import { filterByID } from "../../filterMethods";
+import { filterByID } from "../../utils/filterMethods";
 import PageHeader from "../../components/pageHeader/PageHeader";
 
 export default function FoodDetails() {
@@ -70,7 +70,7 @@ export default function FoodDetails() {
 		<>
 		<PageHeader title={title} />
     <div className="food-details-container">
-      <Slider slides={images2} />
+      {/* <Slider slides={images2} /> */}
       <div className="food-details__bottom">
 
 

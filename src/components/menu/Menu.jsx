@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MenuThumbnail from "../menuThumbnail/MenuThumbnail";
 import { CiViewColumn, CiGrid41 } from "react-icons/ci";
-import NoDataToShow from "../noDataToShow/NoDataToShow";
+import NoDataToShow from "../templates/noDataToShow/NoDataToShow";
 
 function Menu({ menuList, actions }) {
   const [view, setView] = useState("grid");

@@ -9,7 +9,7 @@ import {
 } from "../../../app/services/foodReservationApi";
 import { useGetRoomsQuery } from "../../../app/services/roomApi";
 import { useGetFoodsQuery } from "../../../app/services/foodApi";
-import { filterByID } from "../../../filterMethods";
+import { filterByID } from "../../../utils/filterMethods";
 import swal from "sweetalert";
 import Pagination from "../../../components/pagination/Pagination";
 import CircleSpinner from "../../../components/loader/CircleSpinner";

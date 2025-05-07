@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import "./navbar.css";
 import { NavLink } from "react-router-dom";
-import { StaticDataContext } from "../../contexts/StaticDataContext";
+import { StaticDataContext } from "../../../contexts/StaticDataContext";
 import { MdOutlineMenu } from "react-icons/md";
-import { AuthContext } from "../../contexts/AuthContext";
+import { AuthContext } from "../../../contexts/AuthContext";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);

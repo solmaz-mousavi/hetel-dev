@@ -1,11 +1,11 @@
 import { useContext, useEffect } from "react";
-import { AuthContext } from "../../contexts/AuthContext";
-import Logo from "../logo/Logo";
+import { AuthContext } from "../../../contexts/AuthContext";
+import Logo from "../../logo/Logo";
 import Social from "../social/Social";
-import HeaderUserInfo from "../headerUserInfo/HeaderUserInfo";
+import HeaderUserInfo from "../../headerUserInfo/HeaderUserInfo";
 import "./header.css";
-import CartInfo from "../cartInfo/CartInfo";
-import { useGetUsersQuery } from "../../app/services/userApi";
+import CartInfo from "../../cartInfo/CartInfo";
+import { useGetUsersQuery } from "../../../app/services/userApi";
 
 export default function Header() {
   const { userInfo, logout, setUserInfo, setToken } = useContext(AuthContext);

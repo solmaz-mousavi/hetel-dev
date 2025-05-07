@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import "./foodCategory.css";
-import { StaticDataContext } from "../../contexts/StaticDataContext";
+import { StaticDataContext } from "../../../contexts/StaticDataContext";
 import { useNavigate } from "react-router-dom";
-import Aos from "../aos/Aos";
+import Aos from "../../modules/aos/Aos";
 
 function FoodCategory() {
   const { staticData } = useContext(StaticDataContext);

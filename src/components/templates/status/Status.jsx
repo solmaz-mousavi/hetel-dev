@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import "./status.css";
-import { StaticDataContext } from "../../contexts/StaticDataContext";
-import Aos from "../aos/Aos";
-import CounterUp from "../../components/countUp/CounterUp";
+import { StaticDataContext } from "../../../contexts/StaticDataContext";
+import Aos from "../../modules/aos/Aos";
+import CounterUp from "../../modules/countUp/CounterUp";
 
 function Status() {
 			const { staticData } = useContext(StaticDataContext);

@@ -137,5 +137,17 @@
       "title": "نوشیدنی گرم",
       "image": "/aseman-hotel/images/category/5.webp"
     }
-  ]
+  ],
+	"roomCategory":[
+		{"id":"01", "image":"/aseman-hotel/images/room-type/1.jpg"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/2.jpg"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/3.jpg"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/4.jpg"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/5.jpg"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/6.avif"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/7.jpg"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/8.jpg"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/9.avif"},
+		{"id":"01", "image":"/aseman-hotel/images/room-type/10.jpg"}
+	]
 }

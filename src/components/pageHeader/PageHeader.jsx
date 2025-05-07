@@ -1,5 +1,5 @@
 import "./pageHeader.css";
-import Aos from "../aos/Aos";
+import Aos from "../modules/aos/Aos";
 
 function PageHeader({ title }) {
 	return (

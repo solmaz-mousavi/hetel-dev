@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import Icon from "../icon/Icon";
+import Icon from "../../modules/icon/Icon";
 import "./social.css";
-import { StaticDataContext } from "../../contexts/StaticDataContext";
+import { StaticDataContext } from "../../../contexts/StaticDataContext";
 
 function Social() {
   const { staticData } = useContext(StaticDataContext);

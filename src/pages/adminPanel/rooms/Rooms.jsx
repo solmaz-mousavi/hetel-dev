@@ -13,7 +13,7 @@ import CircleSpinner from "../../../components/loader/CircleSpinner";
 import { MdDelete, MdErrorOutline } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
 import { BiDetail } from "react-icons/bi";
-import { filterByID } from "../../../filterMethods";
+import { filterByID } from "../../../utils/filterMethods";
 
 export default function Rooms({ setSelectedRoom }) {
   const ContextDatas = useContext(ContextData);

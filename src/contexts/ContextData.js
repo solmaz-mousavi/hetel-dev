@@ -1,9 +1,10 @@
 import { createContext, useCallback, useState } from "react";
 import swal from "sweetalert";
 // import { useNavigate } from "react-router-dom";
-import { getDateArray2, filterByNameOutputByOneItem } from "../filterMethods";
+import { filterByNameOutputByOneItem } from "../utils/filterMethods";
 import { useAddRoomReservationMutation, useGetRoomReservationsQuery } from "../app/services/roomReservationApi";
 import { useAddFoodReservationMutation, useGetFoodReservationsQuery } from "../app/services/foodReservationApi";
+import { getDateArray2 } from "../utils/getDateArray";
 
 export const ContextData = createContext();
 function DataProvider({ children }) {
@@ -43,12 +44,12 @@ function DataProvider({ children }) {
 
   // cart
 
-  const addToRoomCart = (product) => {
-    const localStorageData = JSON.parse(localStorage.getItem("roomCart")) || [];
-    const newLocalStorageData = [...localStorageData, product];
-    localStorage.setItem("roomCart", JSON.stringify(newLocalStorageData));
-    setFlag((prev) => !prev);
-  };
+  // const addToRoomCart = (product) => {
+  //   const localStorageData = JSON.parse(localStorage.getItem("roomCart")) || [];
+  //   const newLocalStorageData = [...localStorageData, product];
+  //   localStorage.setItem("roomCart", JSON.stringify(newLocalStorageData));
+  //   setFlag((prev) => !prev);
+  // };
 
   const removeFromRoomCart = (roomCartInfo) => {
     swal({
@@ -189,7 +190,7 @@ function DataProvider({ children }) {
         foodCategories,
         // login,
         // logout,
-        addToRoomCart,
+        // addToRoomCart,
         removeFromRoomCart,
         reserveRoom,
 				reserveFood,

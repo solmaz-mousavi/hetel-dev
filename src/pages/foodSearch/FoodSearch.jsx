@@ -11,7 +11,7 @@ import {
   requiredDateValidator,
   requiredStringValidator,
 } from "../../validators/rules";
-import { filterByID } from "../../filterMethods";
+import { filterByID } from "../../utils/filterMethods";
 import CircleSpinner from "../../components/loader/CircleSpinner";
 import { MdErrorOutline } from "react-icons/md";
 import { BiDetail } from "react-icons/bi";

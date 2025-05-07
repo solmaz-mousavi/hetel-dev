@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import "./intro.css";
-import { StaticDataContext } from "../../contexts/StaticDataContext";
-import Aos from "../aos/Aos";
+import { StaticDataContext } from "../../../contexts/StaticDataContext";
+import Aos from "../../modules/aos/Aos";
 
 function Intro() {
   const { staticData } = useContext(StaticDataContext);
